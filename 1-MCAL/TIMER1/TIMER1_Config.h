@@ -1,0 +1,26 @@
+/*
+ * TIMER1_Config.h
+ *
+ *  Created on: Sep 17, 2023
+ *      Author: moham
+ */
+
+#ifndef TIMER1_CONFIG_H_
+#define TIMER1_CONFIG_H_
+
+
+#define TIMER1_MODE				TIMER1_ICU_MODE
+#define TIMER1_PWM_MODE	TIMER1_PWM_CHANNEL_A_NON_INVERTED
+#define TIMER1_PRESCALER		TIMER1_PRESCALER_64
+
+#define ICR_Value_Init					15000
+#define OCR1AL_Value_Init				5000
+#define OCR1BL_Value_Init				DISABLE
+#define TIMER1_OVERFLOW_COUNTER_VALUE	20	//FOR 1 SEC
+#define TIMER1_PRELOAD_VALUE			9000
+
+#define TIMER1_CTC_CHANNEL				TIMER1_CTC_CH_A
+
+#define TIMER1_CTC_COUNTER_VALUE		65535 //FOR 1 SEC
+
+#endif /* TIMER1_CONFIG_H_ */

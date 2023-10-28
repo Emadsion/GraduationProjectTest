@@ -1,0 +1,20 @@
+/*
+ * TIMER2_Config.h
+ *
+ *  Created on: Sep 24, 2023
+ *      Author: moham
+ */
+
+#ifndef TIMER2_CONFIG_H_
+#define TIMER2_CONFIG_H_
+
+#define TIMER2_MODE											TIMER2_PHASECORRECT_PWM
+#define TIMER2_PRESCALER									TIMER2_PRESCALER_64
+#define TIMER2_FASTPWM_MODE						TIMER2_PWM_NON_INVERTED
+#define TIMER2_PHASECORRECT_MODE				TIMER2_PWM_NON_INVERTED
+#define TIMER2_PRELOAD_VALUE		152
+#define TIMER2_CTC_VALUE			128
+#define TIMER2_COUNTER_VALUE	2000
+
+
+#endif /* TIMER2_CONFIG_H_ */
